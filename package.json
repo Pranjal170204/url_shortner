@@ -4,13 +4,16 @@
   "description": "shortens url",
   "main": "nodemon index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "author": "Pranjal",
   "license": "ISC",
   "dependencies": {
     "express": "^4.21.2",
     "mongoose": "^8.10.1",
-    "nodemon": "^3.1.9"
+    "nanoid": "^5.1.0",
+    "nodemon": "^3.1.9",
+    "shortid": "^2.2.17"
   }
 }
